@@ -1,0 +1,16 @@
+from fileoperations import *
+print(read("mytext1.txt"))
+print("############################")
+print(read("mytext1.txt",20))
+print("############################")
+print(read("mytext1.txt","line"))
+print("############################")
+print(read("mytext1.txt","lines"))
+print("############################")
+print(write("mytext2.txt","supertext"))
+print(append("mytext2.txt","supertext"))
+from AbdoExperiance.db.myqeuries import *
+print(insert())
+print(update())
+print(delete())
+print(select())
